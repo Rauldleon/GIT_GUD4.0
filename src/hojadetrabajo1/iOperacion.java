@@ -1,15 +1,31 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * iOperacion.java
+ * Clase interfaz para la clase operacion.
+ * @author Didier Salazar, 15487
+ * @author Raul de Leon, 15112
  */
+package postfix;
 
 /**
  *
  * @author Didier
  */
 public interface iOperacion {
+
+    /**
+     *
+     */
     public void operar();
+
+    /**
+     *
+     * @return
+     */
     public int resultado();
+
+    /**
+     *
+     * @return
+     */
     public String toString();
 }
