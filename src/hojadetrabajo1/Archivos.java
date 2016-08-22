@@ -1,13 +1,9 @@
+package postfix;
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+* Archivos.java
+* Clase que maneja el archivo en donde estará la linea de datos en formato postfix.
+*/
 
-/**
- *
- * @author raul_
- */
 import java.io.*;
        
 /**
@@ -17,7 +13,7 @@ import java.io.*;
 public class Archivos{
 
     /**
-     *
+     *Metodo que lee y devuelve las lineas que tienen datos en el archivo.
      * @param direccion
      * @return texto leido de un archivo externo
      */
@@ -38,4 +34,5 @@ public class Archivos{
         return texto;
     }
 }
+    
     
